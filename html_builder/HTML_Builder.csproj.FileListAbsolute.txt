@@ -1,0 +1,17 @@
+C:\Users\hylje_000\AppData\Local\Temporary Projects\HTML_Builder\obj\x86\Release\HTML_Builder.frmMain.resources
+C:\Users\hylje_000\AppData\Local\Temporary Projects\HTML_Builder\obj\x86\Release\HTML_Builder.Properties.Resources.resources
+C:\Users\hylje_000\AppData\Local\Temporary Projects\HTML_Builder\obj\x86\Release\HTML_Builder.csproj.GenerateResource.Cache
+C:\Users\hylje_000\AppData\Local\Temporary Projects\HTML_Builder\bin\Release\HTML_Builder.exe
+C:\Users\hylje_000\AppData\Local\Temporary Projects\HTML_Builder\bin\Release\HTML_Builder.pdb
+C:\Users\hylje_000\AppData\Local\Temporary Projects\HTML_Builder\obj\x86\Release\HTML_Builder.exe
+C:\Users\hylje_000\AppData\Local\Temporary Projects\HTML_Builder\obj\x86\Release\HTML_Builder.pdb
+C:\Users\hylje_000\Documents\OHJELMOINTI\C#\HTML_Builder\HTML_Builder\obj\x86\Release\HTML_Builder.frmMain.resources
+C:\Users\hylje_000\Documents\OHJELMOINTI\C#\HTML_Builder\HTML_Builder\obj\x86\Release\HTML_Builder.Properties.Resources.resources
+C:\Users\hylje_000\Documents\OHJELMOINTI\C#\HTML_Builder\HTML_Builder\obj\x86\Release\HTML_Builder.csproj.GenerateResource.Cache
+C:\Users\hylje_000\Documents\OHJELMOINTI\C#\HTML_Builder\HTML_Builder\obj\x86\Release\HTML_Builder.exe
+C:\Users\hylje_000\Documents\OHJELMOINTI\C#\HTML_Builder\HTML_Builder\obj\x86\Release\HTML_Builder.pdb
+C:\Users\hylje_000\Documents\OHJELMOINTI\C#\HTML_Builder\HTML_Builder\bin\Release\HTML_Builder.exe.config
+C:\Users\hylje_000\Documents\OHJELMOINTI\C#\HTML_Builder\HTML_Builder\bin\Release\HTML_Builder.exe
+C:\Users\hylje_000\Documents\OHJELMOINTI\C#\HTML_Builder\HTML_Builder\bin\Release\HTML_Builder.pdb
+C:\Users\hylje_000\Documents\OHJELMOINTI\C#\HTML_Builder\HTML_Builder\bin\Release\debug.png
+C:\Users\hylje_000\Documents\OHJELMOINTI\C#\HTML_Builder\HTML_Builder\obj\x86\Release\HTML_Builder.csprojResolveAssemblyReference.cache
