@@ -1,0 +1,1 @@
+Getting element's control's properties when the control is pressed.
