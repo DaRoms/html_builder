@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Windows.Forms;
 class htmlElem
 {
 	static int curId=0;
@@ -7,6 +9,46 @@ class htmlElem
 	public List<htmlElem> childs;
 	Dictionary<string, string> properties;
 	Dictionary<string, string> style;
+	public Control control;
+
+
+	private void createControl(){
+		if (type.ToLower () == "button") {
+			control = new Button ();
+		}
+	}
+	public void updateControl(){
+
+		int width = changeToCoords(getProperty ("width"));
+		if (width != 0) {
+			control.Width = width;
+		}
+		int height = changeToCoords(getProperty ("height"));
+		if (height != 0) {
+			control.Height = height;
+		}
+		int top = changeToCoords(getProperty ("top"));
+		if (top != 0) {
+			control.Top = top;
+		}
+		int left = changeToCoords(getProperty ("left"));
+		if (left != 0) {
+			control.Left = left;
+		}
+
+		control.Text = value;
+
+	}
+	//Changes string "500px" to int 500
+	private int changeToCoords(string s){
+		if (s != null && s.Length > 2) {
+			return int.Parse (s.Substring (0, s.Length - 2));
+		}		
+		return 0;
+	}
+
+
+
 	public htmlElem(string type,string value="")
 	{
 		id = curId++;
@@ -15,6 +57,7 @@ class htmlElem
 		childs = new List<htmlElem>();
 		this.value = value;
 		this.type = type;
+		createControl ();
 	}
 	public void addChild(htmlElem e)
 	{
@@ -37,27 +80,34 @@ class htmlElem
 	}
 	public void removeProperty(string name)
 	{
-		properties.Remove(name);
+		properties.Remove(name.ToLower());
 	}
 	public void removeStyle(string name)
 	{
-		style.Remove(name);
+		style.Remove(name.ToLower());
 	}
 	public string getProperty(string name)
 	{
-		return properties[name];
+		if (properties.ContainsKey (name)) {
+			return properties [name].ToLower ();
+		}
+		else
+			return null;
 	}
 	public void addProperty(string name,string value)
 	{
-		properties[name] = value;
+		properties[name.ToLower()] = value.ToLower();
 	}
 	public void addStyle(string name, string value)
 	{
-		style[name] = value;
+		style[name.ToLower()] = value.ToLower();
 	}
 	public string getStyle(string name)
 	{
-		return style[name];
+		if (style.ContainsKey (name.ToLower()))
+			return style [name].ToLower ();
+		else
+			return null;
 	}
 	string propertiesToString()
 	{
