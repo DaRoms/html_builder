@@ -20,6 +20,10 @@ class htmlElem
 	{
 		childs.Add(e);
 	}
+	public void removeChild(htmlElem e)
+	{
+		childs.Remove(e);
+	}
 	public string toHTML()
 	{
 		string ret = "";
